@@ -1,0 +1,39 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8" />
+  <title>Google Scraper</title>
+  <link rel="stylesheet" href="third-party/jquery-ui.css" />
+  <script type="text/javascript" src="kango-ui/kango_api.js"></script>
+  <script type="text/javascript" src="third-party/jquery-1.9.1.js"></script>
+  <script type="text/javascript" src="third-party/jquery-ui.js"></script>
+  <script type="text/javascript" src="third-party/URI.js"></script>
+  <script type="text/javascript" src="popup.js"></script>
+  <style>
+    body {
+      width: 400px;
+      height: 400px;
+    }
+
+    #main {
+      width: 100%;
+      height: 100%;
+    }
+
+    #datepicker {
+      display: inline;
+    }
+
+    #scrape {
+      display: inline;
+    }
+  </style>
+</head>
+<body>
+<div id="main">
+<p>How far back do you want to go?</p>
+<input type="text" id="datepicker" />
+<button type="button" id="scrape">Scrape</button>
+</div>
+</body>
+</html>
+

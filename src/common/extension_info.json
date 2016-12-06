@@ -1,0 +1,21 @@
+{
+   "content_scripts":[
+      "third-party/jquery-1.9.1.js",
+      "third-party/FileSaver.js",
+      "content.js"
+   ],
+   "description":"Scrapes all results from Google for the current query",
+   "creator":"Jeremy McLain",
+   "background_scripts":[
+      "third-party/URI.js",
+      "main.js"
+   ],
+   "homepage_url":"http://kangoextensions.com/",
+   "version":"0.9",
+   "browser_button":{
+      "caption":"Google Scraper",
+      "icon":"icons/button.png",
+      "tooltipText":"Google Scraper"
+   },
+   "name":"Google Scraper"
+}
